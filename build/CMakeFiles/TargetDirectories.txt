@@ -1,0 +1,4 @@
+/home/guy/geant4/build/CMakeFiles/sim.dir
+/home/guy/geant4/build/CMakeFiles/Simulation.dir
+/home/guy/geant4/build/CMakeFiles/edit_cache.dir
+/home/guy/geant4/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+/detector/nCols {cols}
+/run/reinitializeGeometry
+/control/execute vis.mac
+/run/beamOn 100
