@@ -267,4 +267,8 @@ CMakeFiles/sim.dir/generator.cc.o: /home/guy/geant4/generator.cc \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4SystemOfUnits.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTableIterator.hh \
- /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.icc
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.icc \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Geantino.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4IonTable.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Ions.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh

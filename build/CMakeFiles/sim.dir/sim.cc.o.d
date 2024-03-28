@@ -659,6 +659,7 @@ CMakeFiles/sim.dir/sim.cc.o: /home/guy/geant4/sim.cc \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4GenericMessenger.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AnyMethod.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AnyType.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.hh \
  /home/guy/geant4/detector.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4CollectionNameVector.hh \
@@ -791,6 +792,12 @@ CMakeFiles/sim.dir/sim.cc.o: /home/guy/geant4/sim.cc \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4EmStandardPhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalPhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalParameters.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayPhysics.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Decay.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VRestDiscreteProcess.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleChangeForDecay.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayProcessType.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4RadioactiveDecayPhysics.hh \
  /home/guy/geant4/action.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VUserActionInitialization.hh \
  /home/guy/geant4/generator.hh \
@@ -798,6 +805,9 @@ CMakeFiles/sim.dir/sim.cc.o: /home/guy/geant4/sim.cc \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleGun.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VPrimaryGenerator.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Geantino.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4IonTable.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Ions.hh \
  /home/guy/geant4/run.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UserRunAction.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Run.hh \

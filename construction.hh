@@ -9,6 +9,7 @@
 #include "G4NistManager.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4GenericMessenger.hh"
+#include "G4Tubs.hh"
 
 #include "detector.hh"
 
@@ -24,13 +25,18 @@ public:
 	
 private:
 	G4Box *solidWorld, *solidRadiator, *solidDetector;
-	G4LogicalVolume *logicWorld, *logicRadiator, *logicDetector;
-	G4VPhysicalVolume *physWorld, *physRadiator, *physDetector;
+	G4Tubs *solidScintillator;
+	G4LogicalVolume *logicWorld, *logicRadiator, *logicDetector, *logicScintillator;
+	G4VPhysicalVolume *physWorld, *physRadiator, *physDetector, *physScintillator;
 	
-	G4Material *SiO2, *H2O, *Aerogel, *worldMat;
-	G4Element *C;
+	G4Material *SiO2, *H2O, *Aerogel, *worldMat, *NaI;
+	G4Element *C, *Na, *I;
 	
 	void DefineMaterials();
+	
+	void ConstructCherenkov();
+	void ConstructScintillator();
+	
 	virtual void ConstructSDandField();
 	
 	G4GenericMessenger *fMessenger;
@@ -38,6 +44,9 @@ private:
 	G4LogicalVolume *fScoringVolume;
 	
 	G4int nRows, nCols;
+	
 	G4double xWorld, yWorld, zWorld;
+	
+	G4bool isCherenkov, isScintillator;
 };
 #endif

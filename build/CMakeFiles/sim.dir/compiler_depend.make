@@ -327,6 +327,10 @@ CMakeFiles/sim.dir/action.cc.o: ../action.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTableIterator.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Geantino.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4IonTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Ions.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh \
   ../run.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UserRunAction.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AnalysisManager.hh \
@@ -544,6 +548,8 @@ CMakeFiles/sim.dir/action.cc.o: ../action.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4GenericMessenger.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AnyMethod.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AnyType.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.icc \
   ../detector.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VSensitiveDetector.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4CollectionNameVector.hh \
@@ -563,7 +569,6 @@ CMakeFiles/sim.dir/action.cc.o: ../action.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4SubEventTrackStack.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4SubEvent.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PrimaryTransformer.hh \
-  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4TrackingManager.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4SteppingManager.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Navigator.hh \
@@ -1071,6 +1076,8 @@ CMakeFiles/sim.dir/construction.cc.o: ../construction.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UItokenNum.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UImessenger.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UIdirectory.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.icc \
   ../detector.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VSensitiveDetector.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4CollectionNameVector.hh \
@@ -2665,7 +2672,11 @@ CMakeFiles/sim.dir/generator.cc.o: ../generator.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4SystemOfUnits.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTableIterator.hh \
-  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.icc
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Geantino.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4IonTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Ions.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh
 
 CMakeFiles/sim.dir/physics.cc.o: ../physics.cc \
   /usr/include/stdc-predef.h \
@@ -3075,7 +3086,163 @@ CMakeFiles/sim.dir/physics.cc.o: ../physics.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ThreeVector.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Utility/defs.h \
-  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayPhysics.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Decay.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VRestDiscreteProcess.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VProcess.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/Randomize.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/Randomize.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/DualRand.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandomEngine.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandomEngine.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/JamesRandom.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/MixMaxRng.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/MTwistEngine.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RanecuEngine.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RanluxEngine.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RanluxppEngine.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RanshiEngine.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandBinomial.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/Random.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/Random.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Utility/memory.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandBinomial.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandFlat.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Utility/thread_local.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandFlat.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandChiSquare.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandChiSquare.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandExponential.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandExponential.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandBit.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandBit.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandGamma.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandGamma.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandGauss.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandGauss.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandGaussQ.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandGaussQ.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandGeneral.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandGeneral.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandLandau.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandLandau.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandPoissonQ.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandPoisson.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandPoisson.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandStudentT.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PhysicsTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PhysicsVector.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Log.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PhysicsVectorType.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PhysicsVector.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PhysicsTable.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VParticleChange.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4TrackStatus.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4SteppingControl.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Step.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VPhysicalVolume.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/geomdefs.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4RotationMatrix.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/Rotation.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationX.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationY.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationY.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationZ.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VPhysicalVolume.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4StepPoint.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AllocatorPool.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4StepStatus.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4TouchableHandle.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VTouchable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4TouchableHistory.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4NavigationHistory.hh \
+  /usr/include/assert.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AffineTransform.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Transform3D.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AffineTransform.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4NavigationLevel.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4NavigationLevelRep.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4NavigationLevelRep.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4NavigationLevel.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4NavigationHistoryPool.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4NavigationHistory.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4LogicalVolume.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4LogicalVolume.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4TouchableHistory.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ReferenceCountedHandle.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Material.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Element.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ElementTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ElementVector.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4IonisParamElm.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Isotope.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4IsotopeVector.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4IonisParamMat.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DensityEffectCalculator.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4MaterialTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4SandiaTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OrderedTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DataVector.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DataVector.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4StepPoint.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4TrackVector.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Profiler.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Profiler.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/PTL/Globals.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/PTL/Types.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/PTL/Utility.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Step.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Track.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/trkdefs.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DynamicParticle.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ElectronOccupancy.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4LorentzVector.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleMomentum.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DynamicParticle.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VUserTrackInformation.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Track.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VParticleChange.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ForceCondition.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4GPILSelection.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleChange.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleChange.icc \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ProcessType.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleChangeForDecay.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayProcessType.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4RadioactiveDecayPhysics.hh
 
 CMakeFiles/sim.dir/run.cc.o: ../run.cc \
   /usr/include/stdc-predef.h \
@@ -4192,6 +4359,7 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4GenericMessenger.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AnyMethod.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AnyType.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.hh \
   ../detector.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VSensitiveDetector.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4CollectionNameVector.hh \
@@ -4332,6 +4500,12 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4EmStandardPhysics.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalPhysics.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalParameters.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayPhysics.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Decay.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VRestDiscreteProcess.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleChangeForDecay.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayProcessType.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4RadioactiveDecayPhysics.hh \
   ../action.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VUserActionInitialization.hh \
   ../generator.hh \
@@ -4339,6 +4513,9 @@ CMakeFiles/sim.dir/sim.cc.o: ../sim.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleGun.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VPrimaryGenerator.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Geantino.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4IonTable.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Ions.hh \
   ../run.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UserRunAction.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Run.hh \
@@ -4807,6 +4984,8 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UItokenNum.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UImessenger.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UIdirectory.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.hh \
+  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.icc \
   ../detector.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VSensitiveDetector.hh \
   /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4CollectionNameVector.hh \
@@ -5095,8 +5274,6 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Ellipsoid.hh:
 
-/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.icc:
-
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Trd.hh:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Trap.icc:
@@ -5157,7 +5334,13 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 
 ../run.cc:
 
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayProcessType.hh:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VRestDiscreteProcess.hh:
+
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalParameters.hh:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Decay.hh:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalPhysics.hh:
 
@@ -5427,6 +5610,10 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VHit.hh:
 
+../detector.hh:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Tubs.icc:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ModelingParameters.icc:
@@ -5607,8 +5794,6 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Material.hh:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Geometry/Vector3D.h:
 
 /usr/include/c++/11/bits/stl_function.h:
@@ -5624,6 +5809,8 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 /usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayPhysics.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -6005,8 +6192,6 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
-../detector.hh:
-
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VModel.icc:
@@ -6055,6 +6240,8 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 
 /usr/include/c++/11/bits/specfun.h:
 
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4RadioactiveDecayPhysics.hh:
+
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PrimaryParticle.hh:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationY.h:
@@ -6092,6 +6279,8 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/AxisAngle.h:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleChangeForDecay.hh:
 
 /usr/include/c++/11/cstdlib:
 
@@ -6180,6 +6369,10 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4TrajectoryContainer.hh:
 
 /usr/include/c++/11/bits/string_view.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Ions.hh:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VParticleChange.hh:
 
@@ -6366,6 +6559,10 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Allocator.hh:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AllocatorPool.hh:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Geantino.hh:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4IonTable.hh:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UserRunAction.hh:
 
@@ -6743,6 +6940,12 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PVPlacement.hh:
 
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AnyMethod.hh:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationX.h:
+
+/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ICRU90StoppingData.hh:
+
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VPVParameterisation.hh:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4NistElementBuilder.hh:
@@ -6750,9 +6953,3 @@ CMakeFiles/sim.dir/stepping.cc.o: ../stepping.cc \
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4TrackingMessenger.hh:
 
 /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4GenericMessenger.hh:
-
-/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/RotationX.h:
-
-/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ICRU90StoppingData.hh:
-
-/home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4AnyMethod.hh:
