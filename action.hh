@@ -8,7 +8,6 @@
 #include "event.hh"
 #include "stepping.hh"
 
-
 class MyActionInitialization : public G4VUserActionInitialization
 {
 public:

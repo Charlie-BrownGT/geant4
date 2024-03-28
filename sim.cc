@@ -13,6 +13,8 @@
 
 int main(int argc, char** argv)
 {
+	G4UIExecutive *ui = 0;
+	
 	#ifdef G4MULTITHREADED
 		G4MTRunManager* runManager = new G4MTRunManager();
 	#else
@@ -23,8 +25,6 @@ int main(int argc, char** argv)
 	runManager->SetUserInitialization(new MyPhysicsList());
 	runManager->SetUserInitialization(new MyActionInitialization());
 
-	G4UIExecutive *ui = 0;
-	
 	if(argc == 1)
 	{
 		ui = new G4UIExecutive(argc, argv);
@@ -44,14 +44,7 @@ int main(int argc, char** argv)
 	{
 		G4String command = "/control/execute ";
 		G4String fileName = argv[1];
-		UImanager->ApplyCommand(command + fileName);
+		UImanager->ApplyCommand(command+fileName);
 	}
-	//UImanager->ApplyCommand("/vis/open OGL");
-	//UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
-	//UImanager->ApplyCommand("/vis/drawVolume");
-	//UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");
-	//UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
-	//UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");
-
 	return 0;
 }

@@ -16,7 +16,7 @@ MySensitiveDetector::MySensitiveDetector(G4String name) : G4VSensitiveDetector(n
 		if(datafile.eof())
 			break;
 		
-		G4cout << wlen << " " << queff << G4endl;
+		G4cout << wlen << " " << queff << std::endl;
 		
 		quEff->InsertValues(wlen, queff/100.);
 	}
@@ -33,7 +33,7 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
 {
 	G4Track *track = aStep->GetTrack();
 	
-	track->SetTrackStatus(fStopAndKill);
+	//track->SetTrackStatus(fStopAndKill);
 	
 	G4StepPoint *preStepPoint = aStep->GetPreStepPoint();
 	G4StepPoint *postStepPoint = aStep->GetPostStepPoint();
@@ -56,9 +56,8 @@ G4bool MySensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *ROhis
 	
 	#ifndef G4MULTITHREADED
 		G4cout << "Detector position: " << posDetector << G4endl;
+		G4cout << "Photon wavelength: " << wlen << G4endl;
 	#endif
-	
-	
 	
 	G4int evt = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
 	

@@ -339,6 +339,7 @@ CMakeFiles/sim.dir/physics.cc.o: /home/guy/geant4/physics.cc \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4RadioactiveDecayPhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayPhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Decay.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VRestDiscreteProcess.hh \
@@ -493,5 +494,4 @@ CMakeFiles/sim.dir/physics.cc.o: /home/guy/geant4/physics.cc \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleChange.icc \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ProcessType.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleChangeForDecay.hh \
- /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayProcessType.hh \
- /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4RadioactiveDecayPhysics.hh
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4DecayProcessType.hh
